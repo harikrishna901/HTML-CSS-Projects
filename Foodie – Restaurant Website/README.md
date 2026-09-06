@@ -4,7 +4,7 @@ A modern and visually appealing restaurant website built using **HTML and CSS**.
 
 ## 🌐 Live Demo
 
-🔗 Add your GitHub Pages link here
+https://harikrishna901.github.io/HTML-CSS-Projects/EduVerse-University-Website/
 
 ## 📌 Project Overview
 
