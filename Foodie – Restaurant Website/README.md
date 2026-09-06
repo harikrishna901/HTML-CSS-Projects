@@ -4,7 +4,7 @@ A modern and visually appealing restaurant website built using **HTML and CSS**.
 
 ## 🌐 Live Demo
 
-https://harikrishna901.github.io/HTML-CSS-Projects/Foodie-Restaurant-Website/
+https://harikrishna901.github.io/HTML-CSS-Projects/Foodie-Restaurant Website/
 
 ## 📌 Project Overview
 
