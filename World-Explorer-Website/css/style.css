@@ -1,0 +1,562 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    height:3125px;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.righthead{
+    flex-grow: 3;
+    padding-left:25px;
+    padding-top:25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+.lefthead{
+    padding-top:28px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-grow: 2;
+}
+.lefthead > a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.lefthead > a:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+.lefthead > a:active{
+    color:black;
+}
+.lefthead > button{
+    background-color: rgb(226, 197, 12);
+    color:whitesmoke;
+    border:none;
+    border-radius: 25px;
+    padding:1px 20px;
+    margin:-10px;
+    font-size:medium;
+}
+.lefthead >button:hover{
+    background-color: rgb(161, 142, 21);
+}
+.lefthead >button:active{
+    background:transparent;
+    border:solid;
+    border-color: yellow;
+    box-shadow:1px 1px 5px rgb(48, 44, 44);
+    color:rgb(230, 207, 4);
+}
+.part1{
+    background-image:url("../assets/images/bg_img.jpg");
+    background-size: cover;
+    height:800px;
+    width:100%;
+}
+.ballon{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:125%;
+    color:white;
+    font-weight:900;
+    line-height: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.ballon >button{
+    background-color: rgb(226, 197, 12);
+    color:whitesmoke;
+    border:none;
+    border-radius: 30px;
+    padding:10px 14px;
+    font-size:small;
+    margin-top:7px;
+}
+.ballon > button:hover{
+    background-color: rgb(161, 142, 21);
+
+}
+.ballon>button:active{
+    background:transparent;
+    border:solid;
+    border-color: yellow;
+    box-shadow:1px 1px 5px rgb(48, 44, 44);
+    color:rgb(230, 207, 4);
+}
+.part2{
+    display:flex;
+    justify-content:center;
+    gap:100px;
+}
+.event{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+.mountain{
+    width:400px;
+    height:300px;
+
+}
+.Drive{
+    width:400px;
+}
+.part3{
+    display:flex;
+    justify-content: center;
+    gap:100px;
+}
+.mount_data{
+    display:flex;
+    flex-direction: column;
+    width:400px;
+    height:200px;
+    align-items: center;
+}
+.drive_data{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:400px;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 24px;
+}
+.mount_data >button{
+    background-color: rgb(226, 197, 12);
+    color:whitesmoke;
+    border:none;
+    border-radius: 30px;
+    padding:10px 14px;
+    font-size:small;
+    margin-top:25px;
+
+}
+.mount_data>button:hover{
+    background-color: rgb(161, 142, 21);
+
+}
+.mount_data>button:active{
+    background:transparent;
+    border:solid;
+    border-color: yellow;
+    box-shadow:1px 1px 5px rgb(48, 44, 44);
+    color:rgb(230, 207, 4);
+
+}
+.drive_data >button{
+    background-color: rgb(226, 197, 12);
+    color:whitesmoke;
+    border:none;
+    border-radius: 30px;
+    padding:10px 14px;
+    font-size:small;
+    margin-top:25px;
+
+}
+.drive_data>button:hover{
+    background-color: rgb(161, 142, 21);
+
+}
+.drive_data>button:active{
+     background:transparent;
+    border:solid;
+    border-color: yellow;
+    box-shadow:1px 1px 5px rgb(48, 44, 44);
+    color:rgb(230, 207, 4);
+
+}
+.part4{
+   background-image: url("../assets/images/bg_img-2.jpg");
+    background-size: cover;
+    height:800px;
+    width:100%;
+    margin-top:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 100px;
+}
+.part4_1{
+    margin-left:-640px;
+    margin-bottom:60px ;
+}
+.part4_2{
+    width:750px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left:-500px;
+
+
+}
+.part4_2 > button{
+     background-color: rgb(226, 197, 12);
+    color:whitesmoke;
+    border:none;
+    border-radius: 30px;
+    padding:10px 14px;
+    font-size:small;
+    margin-top:40px;
+}
+.part4_2 > button:hover{
+     background-color: rgb(161, 142, 21);
+
+}
+.part4_2 > button:active{
+    background:transparent;
+    border:solid;
+    border-color: yellow;
+    box-shadow:1px 1px 5px rgb(48, 44, 44);
+    color:rgb(230, 207, 4);
+}
+.part5{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 70px;
+    column-gap:10px;
+    margin-right:60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.part5_1{
+    padding-top: 18px;
+    line-height:80px;
+    padding-left: 40px;
+}
+.part5_1 > button{
+    background-color: rgb(226, 197, 12);
+    color:whitesmoke;
+    border:none;
+    border-radius: 30px;
+    padding:10px 14px;
+    font-size:small;
+    margin-top:40px;
+
+
+}
+.part5_1 > button:hover{
+    background-color: rgb(161, 142, 21);
+
+}
+.part5_1 > button:active{
+     background:transparent;
+    border:solid;
+    border-color: yellow;
+    box-shadow:1px 1px 5px rgb(48, 44, 44);
+    color:rgb(230, 207, 4);
+
+}
+.part5_2{
+     display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:20px;
+}
+.image{
+    width:100%;
+}
+.footer{
+    margin-top: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:flex;
+    background-color: rgb(57, 27, 86);
+    justify-content: center;
+    text-align: center;
+    color:whitesmoke;
+    padding:20px 0;
+}
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+/* -----------------------------
+   Tablets / Small Laptops
+----------------------------- */
+@media (max-width: 1024px) {
+
+    .part2,
+    .part3 {
+        gap: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .mountain,
+    .Drive,
+    .mount_data,
+    .drive_data {
+        width: 100%;
+    }
+
+    .part4_1 {
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+
+    .part4_2 {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .part5 {
+        margin-right: 30px;
+        padding-left: 20px;
+    }
+
+    .part5_1 {
+        padding-left: 20px;
+    }
+
+    .part5_1 > button {
+        margin-left: 0 !important;
+    }
+}
+
+
+/* -----------------------------
+   Tablets
+----------------------------- */
+@media (max-width: 768px) {
+
+    /* HEADER */
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-top: 20px;
+    }
+
+    .righthead {
+        padding: 0;
+    }
+
+    .lefthead {
+        width: 100%;
+        padding: 0 20px;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .lefthead > button {
+        margin: 0;
+        padding: 8px 20px;
+    }
+
+
+    /* HERO */
+
+    .part1 {
+        height: 700px;
+    }
+
+    .ballon {
+        height: 90%;
+        text-align: center;
+        padding: 20px;
+        line-height: normal;
+        gap: 25px;
+    }
+
+
+    /* UPCOMING EVENTS */
+
+    .part2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 0 30px;
+    }
+
+    .mountain,
+    .Drive {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+    }
+
+    .part3 {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 30px;
+    }
+
+    .mount_data,
+    .drive_data {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+    }
+
+
+    /* EXPLORE SECTION */
+
+    .part4 {
+        height: auto;
+        min-height: 650px;
+        padding: 80px 30px;
+        text-align: center;
+    }
+
+    .part4_1 {
+        margin: 0 0 40px 0;
+    }
+
+    .part4_2 {
+        width: 100%;
+        margin: 0;
+    }
+
+
+    /* UPCOMING TOURS */
+
+    .part5 {
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+        margin: 50px 30px;
+        padding: 0;
+    }
+
+    .part5_1 {
+        padding: 0;
+        text-align: center;
+        line-height: normal;
+    }
+
+    .part5_1 h1 {
+        font-size: 40px !important;
+    }
+
+    .part5_1 hr {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .part5_1 > button {
+        margin-left: 0 !important;
+    }
+
+    .part5_2 {
+        width: 100%;
+    }
+}
+
+
+/* -----------------------------
+   Mobile Phones
+----------------------------- */
+@media (max-width: 480px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+
+    /* HEADER */
+
+    .container {
+        padding: 20px 15px 0;
+    }
+
+    .lefthead {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lefthead > a {
+        padding: 5px;
+    }
+
+
+    /* HERO */
+
+    .part1 {
+        height: 650px;
+    }
+
+    .ballon p {
+        font-size: 22px !important;
+    }
+
+    .ballon h1 {
+        font-size: 30px !important;
+        text-align: center;
+    }
+
+
+    /* EVENTS */
+
+    .event {
+        font-size: 30px;
+        margin: 40px 15px;
+    }
+
+    .part2 {
+        padding: 0 20px;
+    }
+
+    .part3 {
+        padding: 30px 20px;
+    }
+
+    .mount_data,
+    .drive_data {
+        text-align: center;
+    }
+
+
+    /* EXPLORE */
+
+    .part4 {
+        min-height: 550px;
+        padding: 60px 20px;
+    }
+
+    .part4_1 h1 {
+        font-size: 30px !important;
+    }
+
+
+    /* TOURS */
+
+    .part5 {
+        margin: 40px 20px;
+    }
+
+    .part5_1 h1 {
+        font-size: 32px !important;
+        line-height: 1.2;
+    }
+
+    .part5_2 {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+
+    /* FOOTER */
+
+    .footer {
+        margin-top: 50px;
+        padding: 25px 15px;
+    }
+
+    .footer p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+}
